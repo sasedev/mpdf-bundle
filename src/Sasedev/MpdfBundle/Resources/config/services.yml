@@ -1,0 +1,7 @@
+parameters:
+    sasedev_mpdf.class: Sasedev\MpdfBundle\Service\MpdfService
+
+services:
+    sasedev_mpdf:
+        class: "%sasedev_mpdf.class%"
+        arguments: ["@templating", "@logger", "%kernel.cache_dir%"]
