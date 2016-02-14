@@ -143,7 +143,7 @@ class MpdfService
 	public function callMethod($name, array $data)
 	{
 
-		call_user_func_array(array(
+		return call_user_func_array(array(
 			$this->mpdf,
 			$name
 		), $data);
