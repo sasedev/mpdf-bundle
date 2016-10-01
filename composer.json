@@ -3,7 +3,7 @@
 	"description" : "Mpdf for Symfony2 (3.0)",
 	"require" : {
 		"php" : ">=5.5",
-		"mpdf/mpdf" : "6.0.*",
+		"mpdf/mpdf" : "^6.0",
 		"symfony/twig-bridge" : "~2.8|~3.0",
 		"symfony/monolog-bridge" : "~2.8|~3.0",
 		"symfony/http-foundation" : "~2.8|~3.0",
