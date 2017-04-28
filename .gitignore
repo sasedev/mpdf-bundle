@@ -1,0 +1,16 @@
+# Eclipse Files
+/.classpath
+/.buildpath
+/.project
+/.settings/
+
+/vendor/
+
+# PHPUnit
+/phpunit.xml
+
+# Composer PHAR
+/composer.phar
+
+# Composer lock
+/composer.lock
