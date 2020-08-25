@@ -1,0 +1,9 @@
+/.classpath
+/.buildpath
+/.project
+/.settings/
+/bin/
+/vendor/
+/composer.phar
+/composer.lock
+.phpunit.result.cache

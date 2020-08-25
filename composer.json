@@ -1,0 +1,56 @@
+{
+	"name" : "sasedev/mpdf-bundle",
+	"description" : "Mpdf for Symfony (5.1)",
+	"keywords" : [
+		"mpdf",
+		"symfony",
+		"sasedev"
+	],
+	"type" : "symfony-bundle",
+    "homepage": "https://github.com/sasedev/mpdf-bundle",
+    "support": {
+        "email": "sinus@sasedev.net",
+        "issues": "https://github.com/mpdf-bundle/issues"
+    },
+	"license" : "MIT",
+    "authors": [
+        {
+            "name": "SALAH Abdelkadeur Seifeddine",
+            "homepage": "https://sasedev.net",
+            "email": "sinus@sasedev.net"
+        }
+    ],
+	"config" : {
+		"bin-dir" : "bin",
+		"component-dir" : "vendor",
+		"preferred-install" : {
+			"*" : "dist"
+		},
+		"process-timeout" : 1200,
+		"sort-packages" : true
+	},
+	"autoload" : {
+		"psr-4" : {
+			"" : "src"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"" : "tests"
+		}
+	},
+	"require" : {
+		"php": ">=7.2",
+		"mpdf/mpdf": "*",
+		"symfony/config": "^5.1",
+		"symfony/dependency-injection": "^5.1",
+		"symfony/http-kernel": "^5.1"
+	},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
