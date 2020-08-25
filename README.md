@@ -29,8 +29,7 @@ return [
 
 ## Usage
 
-### Simple usage:
-You can use the type in your forms just like this:
+You can use the factory in your controllers just like this:
 ```php
 <?php
 
@@ -52,6 +51,7 @@ $mPdf->SetFooter($this->renderView('twigfolder/pdf/pdf_footer.html.twig', $TwigV
 $mPdf->WriteHTML($this->renderView('twigfolder/pdf/pdf_content.html.twig', $TwigVars));
 return $MpdfFactory->createDownloadResponse($mPdf, "file.pdf");
 }
+// ...
 ```
 
 ## Reporting an issue or a feature request
