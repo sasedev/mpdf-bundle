@@ -1,3 +1,26 @@
+# Preface alexh-swdev
+
+This is "just" a fork from sasedev/mpdf-bundle. The puporse of this fork is to keep it installable with Symfony up to 6.3 but I will NOT actively 
+maintain it as long as it works for me. Also, I am no "pro" with composer and its versioning stuff. Nevertheless, feel free to use it at your own 
+risk as long as you don't blame me for anything :)
+
+If you choose to use it, adjust your `composer.json`
+```
+(...)
+"repositories": [
+	{
+		"type": "vcs",
+		"url": "https://github.com/alexh-swdev/mpdf-bundle.git"
+	}
+],
+(...)
+"require" : {
+	"sasedev/mpdf-bundle": "dev-master",
+	(...)
+}
+(...)
+```
+
 # Sasedev - Mpdf Bundle
 
 Pdf generator for Symfony.
